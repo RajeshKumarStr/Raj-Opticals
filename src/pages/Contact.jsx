@@ -27,8 +27,8 @@ function Contact() {
     setIsLoading(true);
 
     try {
-      // 'http://localhost:5000/api/contact','https://raj-opticals-server.onrender.com/api/contact'
-      const response = await fetch('http://localhost:5000/api/contact', {
+      // 'http://localhost:5000/api/contact','https://raj-opticals-server.onrender.com/api/contact','https://rajeyecareandopticals.vercel.app'
+      const response = await fetch('https://rajeyecareandopticals.vercel.app', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
