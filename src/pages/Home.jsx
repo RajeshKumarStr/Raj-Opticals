@@ -1,12 +1,11 @@
-import React, { useRef } from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "./About";
-import Services from "./Services";
-import GallerySection from "./GallerySection"
-import Contact from "./Contact";
-import ChatButton from "../components/Chatbutton";
-import Footer from "./Footer";
+import Navbar from "../components/Navbar.jsx";
+import Hero from "../components/Hero.jsx";
+import About from "./About.jsx";
+import Services from "./Services.jsx";
+import GallerySection from "./GallerySection.jsx"
+import Contact from "./Contact.jsx";
+import ChatButton from "../components/ChatButton.jsx";
+import Footer from "./Footer.jsx";
 
 function Home() {
   const heroRef = useRef(null);
